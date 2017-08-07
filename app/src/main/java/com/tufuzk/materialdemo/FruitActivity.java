@@ -46,6 +46,7 @@ public class FruitActivity extends AppCompatActivity {
         fruitContentText.setText(fruitContent);
     }
 
+    // 生成文本内容
     private String generateFruitContent(String fruitName) {
         StringBuilder fruitcontent = new StringBuilder();
         for (int i = 0; i < 500; i++) {

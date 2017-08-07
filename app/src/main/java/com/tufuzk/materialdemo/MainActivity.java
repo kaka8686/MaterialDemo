@@ -28,6 +28,7 @@ public class MainActivity extends AppCompatActivity {
 
     DrawerLayout drawerLayout;
 
+    //
     private Fruit[] fruits = {new Fruit("Apple", R.drawable.apple), new Fruit("Banana", R.drawable.banana),
             new Fruit("Orange", R.drawable.orange), new Fruit("Watermelon", R.drawable.watermelon),
             new Fruit("Pear", R.drawable.pear), new Fruit("Grape", R.drawable.grape),
